@@ -1,4 +1,4 @@
-
+import HomeWork
 
 sides = [3, 2, 4, 7, 5, 12, 11, 13, 15, 16, 14, 14]
 
@@ -18,3 +18,7 @@ for i in range(len(sides)):
                     smax = s
 
 print("Максимальная площадь треугольника", smax)
+
+print("Первый корень уравнения", HomeWork.x_first)
+
+print("Второй корень уравнения", HomeWork.x_second)
